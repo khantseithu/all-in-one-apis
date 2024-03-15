@@ -1,40 +1,9 @@
 openapi: 3.0.3
 info:
-  title: FreeAPI
+  title: AllInOneAPIs
   description: >-
-    # FreeAPI.app
-
-    The **FreeAPI** project is an innovative 🚀 and community-driven 🔭 initiative aimed at providing developers with free and accessible APIs for their projects.
-
     The project focuses on delivering a wide range of APIs that cater to various domains and functionalities, enabling developers to seamlessly integrate these APIs into their applications.
-
-    Key highlights of the FreeAPI project include:
-
-    1. **🧤 Accessibility:** The FreeAPI project is committed to eliminating barriers by providing free access to its collection of APIs.  
-        Developers can leverage these APIs without any cost limitations, allowing them to experiment, learn, and build innovative applications.
-
-    2. **🔩 Diverse API Collection:** The project offers a diverse and comprehensive collection of APIs that span across different industries, domains, and functionalities.  
-        Whether you require social media integrations, payment gateways, machine learning algorithms, or IoT device connectivity, the FreeAPI project has you covered.
-    
-    3. **🔌 Simplified Integration:** The FreeAPI project understands the challenges developers face when integrating APIs into their applications. To address this, the project provides clear documentation, code samples, and SDKs, simplifying the integration process and reducing development time and effort.
-    
-    4. **🤝 Community-Driven Development:** The project fosters a vibrant and collaborative community of developers. Contributors are encouraged to share their knowledge, engage in discussions, and collaborate on API-related projects. This collective effort ensures the continuous improvement and reliability of the APIs offered by the FreeAPI project.
-    
-    5. **🎼 Learning and Skill Development:** The FreeAPI project aims to empower developers by providing a platform for learning and skill development. Through access to various APIs and educational resources, developers can enhance their understanding of API integration, expand their knowledge, and showcase their expertise through building complete projects.
-        
-
-    Overall, the **FreeAPI** project is a valuable resource for developers seeking accessible and diverse APIs.
-
-    By fostering a supportive community, the project empowers developers to learn, create, and innovate, ultimately contributing to the growth and advancement of the API integration landscape.
-
-    ## 🏁 Installation
-
-    Follow [these](https://github.com/hiteshchoudhary/apihub#-installation) instructions for the installation and project setup.
-
-    ## 🐞 Reporting issues
-
-    If you find API issues or bugs when testing, please create an [issue](https://github.com/hiteshchoudhary/apihub/issues/new) and assign it to a member of the development team.
-  version: 1.2.0
+  version: 1.0.0
   contact: {}
 servers:
   - url: 'http://localhost:8080/api/v1'
@@ -43,7 +12,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get users
       description: >-
         The API endpoint retrieves a random list of users. When accessing this
@@ -1215,7 +1184,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get user by id
       description: >-
         The API endpoint retrieves a user based on the specified ID.
@@ -1467,7 +1436,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get a random user
       description: >-
         The API endpoint retrieves a single random user. When accessing this
@@ -1709,7 +1678,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get products
       description: >-
         The API endpoint returns a list of dummy products.
@@ -2091,7 +2060,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get product by id
       description: >-
         The API endpoint allows you to retrieve a product based on the specified
@@ -2233,7 +2202,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get a random product
       description: >-
         The API endpoint allows you to retrieve a randomly generated dummy
@@ -2369,10 +2338,10 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get jokes
       description: >-
-        The API endpoint retrieves a list of jokes.  
+        The API endpoint retrieves a list of jokes.
 
         When accessing this endpoint, you will receive a response containing a
         collection of jokes.
@@ -2571,7 +2540,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get joke by id
       description: >-
         The API endpoint allows you to retrieve a joke based on the specified
@@ -2672,7 +2641,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get a random joke
       description: >-
         The API endpoint returns a random joke from a list of jokes.
@@ -2764,7 +2733,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get books
       description: >-
         The API endpoint allows you to retrieve a list of random books.
@@ -4559,7 +4528,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get book by id
       description: >-
         The API endpoint retrieves a book based on the book ID provided as a
@@ -4939,7 +4908,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get a random book
       description: >-
         The API endpoint returns a single random book from a list of books.
@@ -5291,11 +5260,11 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get stocks
       description: >-
         The API endpoint allows you to retrieve a list of stocks listed on NSE [National Stock Exchange of India].
-        The data you get is a snapshot taken on 28th Dec 2023 & not live from stock exchange. 
+        The data you get is a snapshot taken on 28th Dec 2023 & not live from stock exchange.
 
         Upon accessing this endpoint, you will receive a response containing a
         collection of randomly selected stocks.
@@ -5384,35 +5353,35 @@ paths:
                               example: 01-Apr-99
                             ISIN:
                               type: string
-                              example: INE092A01019  
+                              example: INE092A01019
                             MarketCap:
                               type: string
-                              example: ₹ 28,355 Cr.  
+                              example: ₹ 28,355 Cr.
                             CurrentPrice:
                               type: string
-                              example: ₹ 1,113  
+                              example: ₹ 1,113
                             HighLow:
                               type: string
-                              example: ₹ 1,123 / 912  
+                              example: ₹ 1,123 / 912
                             StockPE:
                               type: string
-                              example:  14.4 
+                              example:  14.4
                             BookValue:
                               type: string
-                              example: ₹ 840  
+                              example: ₹ 840
                             DividendYield:
                               type: string
-                              example: 1.54 %  
+                              example: 1.54 %
                             ROCE:
                               type: string
-                              example: 11.6 %  
+                              example: 11.6 %
                             ROE:
                               type: string
-                              example: 12.0 %  
+                              example: 12.0 %
                             FaceValue:
                               type: string
-                              example: ₹ 10.0  
-                            
+                              example: ₹ 10.0
+
                         example:
                           - Name: Tata Chemicals Limited
                             Symbol: TATACHEM
@@ -5440,7 +5409,7 @@ paths:
                             DividendYield: 0.93 %
                             ROCE: 9.78 %
                             ROE: 10.1 %
-                            FaceValue: ₹ 1.0      
+                            FaceValue: ₹ 1.0
                       limit:
                         type: number
                         example: 10
@@ -5514,7 +5483,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get stock by symbol id
       description: >-
         The API endpoint retrieves a stock based on the Symbol as ID provided as a
@@ -5579,34 +5548,34 @@ paths:
                         example: 01-Apr-99
                       ISIN:
                         type: string
-                        example: INE092A01019  
+                        example: INE092A01019
                       MarketCap:
                         type: string
-                        example: ₹ 28,355 Cr.  
+                        example: ₹ 28,355 Cr.
                       CurrentPrice:
                         type: string
-                        example: ₹ 1,113  
+                        example: ₹ 1,113
                       HighLow:
                         type: string
-                        example: ₹ 1,123 / 912  
+                        example: ₹ 1,123 / 912
                       StockPE:
                         type: string
-                        example:  14.4 
+                        example:  14.4
                       BookValue:
                         type: string
-                        example: ₹ 840  
+                        example: ₹ 840
                       DividendYield:
                         type: string
-                        example: 1.54 %  
+                        example: 1.54 %
                       ROCE:
                         type: string
-                        example: 11.6 %  
+                        example: 11.6 %
                       ROE:
                         type: string
-                        example: 12.0 %  
+                        example: 12.0 %
                       FaceValue:
                         type: string
-                        example: ₹ 10.0          
+                        example: ₹ 10.0
                   message:
                     type: string
                     example: Book fetched successfully
@@ -5647,7 +5616,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get a random stock
       description: >-
         The API endpoint returns a single random stock from a list of stocks.
@@ -5711,34 +5680,34 @@ paths:
                         example: 01-Apr-99
                       ISIN:
                         type: string
-                        example: INE092A01019  
+                        example: INE092A01019
                       MarketCap:
                         type: string
-                        example: ₹ 28,355 Cr.  
+                        example: ₹ 28,355 Cr.
                       CurrentPrice:
                         type: string
-                        example: ₹ 1,113  
+                        example: ₹ 1,113
                       HighLow:
                         type: string
-                        example: ₹ 1,123 / 912  
+                        example: ₹ 1,123 / 912
                       StockPE:
                         type: string
-                        example:  14.4 
+                        example:  14.4
                       BookValue:
                         type: string
-                        example: ₹ 840  
+                        example: ₹ 840
                       DividendYield:
                         type: string
-                        example: 1.54 %  
+                        example: 1.54 %
                       ROCE:
                         type: string
-                        example: 11.6 %  
+                        example: 11.6 %
                       ROE:
                         type: string
-                        example: 12.0 %  
+                        example: 12.0 %
                       FaceValue:
                         type: string
-                        example: ₹ 10.0  
+                        example: ₹ 10.0
                   message:
                     type: string
                     example: Book fetched successfully
@@ -5772,7 +5741,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get quotes
       description: >-
         The API endpoint allows you to retrieve a list of quotes.
@@ -6048,7 +6017,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get quote by id
       description: >-
         The API endpoint enables you to retrieve a specific quote based on the
@@ -6178,7 +6147,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get a random quote
       description: >-
         The API endpoint returns a random quote from a list of quotes.
@@ -6292,7 +6261,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get meals
       description: >-
         The API endpoint enables you to retrieve a list of meals.
@@ -6805,7 +6774,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get meal by id
       description: >-
         The API endpoint retrieves a meal based on the provided meal ID in the
@@ -7105,7 +7074,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get a random meal
       description: >-
         The API endpoint returns a random meal object from a given list of
@@ -7397,7 +7366,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get dogs
       description: >-
         The API endpoint retrieves a list of dog objects.
@@ -7627,7 +7596,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get dog by id
       description: >-
         The API endpoint retrieves a dog object based on the provided dog ID in
@@ -7785,7 +7754,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get a random dog
       description: >-
         The API endpoint returns a randomly selected dog object from a list.
@@ -7930,7 +7899,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get cats
       description: >-
         The API endpoint retrieves a list of cat objects.
@@ -8361,7 +8330,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get cat by id
       description: >-
         The API endpoint retrieves a cat object based on the provided cat ID in
@@ -8614,7 +8583,7 @@ paths:
     get:
       tags:
         - 📢 Public APIs
-        
+
       summary: Get a random cat
       description: >-
         The API endpoint returns a randomly selected cat object from a list.
@@ -9464,7 +9433,7 @@ paths:
 
                                         It doesn't feel good to have a
                                         disclaimer in every video but this is
-                                        how the world is right now. 
+                                        how the world is right now.
 
                                         All videos are for educational purposes
                                         and use them wisely. Any video may have
@@ -9503,7 +9472,7 @@ paths:
 
                                             It doesn't feel good to have a
                                             disclaimer in every video but this is
-                                            how the world is right now. 
+                                            how the world is right now.
 
                                             All videos are for educational purposes
                                             and use them wisely. Any video may have
@@ -9663,7 +9632,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -9695,7 +9664,7 @@ paths:
 
                                     It doesn't feel good to have a disclaimer in
                                     every video but this is how the world is
-                                    right now. 
+                                    right now.
 
                                     All videos are for educational purposes and
                                     use them wisely. Any video may have a slight
@@ -9788,7 +9757,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -9819,7 +9788,7 @@ paths:
 
                                     It doesn't feel good to have a disclaimer in
                                     every video but this is how the world is
-                                    right now. 
+                                    right now.
 
                                     All videos are for educational purposes and
                                     use them wisely. Any video may have a slight
@@ -9915,7 +9884,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -9948,7 +9917,7 @@ paths:
 
                                     It doesn't feel good to have a disclaimer in
                                     every video but this is how the world is
-                                    right now. 
+                                    right now.
 
                                     All videos are for educational purposes and
                                     use them wisely. Any video may have a slight
@@ -10046,7 +10015,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -10083,7 +10052,7 @@ paths:
 
                                     It doesn't feel good to have a disclaimer in
                                     every video but this is how the world is
-                                    right now. 
+                                    right now.
 
                                     All videos are for educational purposes and
                                     use them wisely. Any video may have a slight
@@ -10180,7 +10149,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -10214,7 +10183,7 @@ paths:
 
                                     It doesn't feel good to have a disclaimer in
                                     every video but this is how the world is
-                                    right now. 
+                                    right now.
 
                                     All videos are for educational purposes and
                                     use them wisely. Any video may have a slight
@@ -10309,7 +10278,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -10343,7 +10312,7 @@ paths:
 
                                     It doesn't feel good to have a disclaimer in
                                     every video but this is how the world is
-                                    right now. 
+                                    right now.
 
                                     All videos are for educational purposes and
                                     use them wisely. Any video may have a slight
@@ -10436,7 +10405,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -10467,7 +10436,7 @@ paths:
 
                                     It doesn't feel good to have a disclaimer in
                                     every video but this is how the world is
-                                    right now. 
+                                    right now.
 
                                     All videos are for educational purposes and
                                     use them wisely. Any video may have a slight
@@ -10561,7 +10530,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -10599,7 +10568,7 @@ paths:
 
                                     It doesn't feel good to have a disclaimer in
                                     every video but this is how the world is
-                                    right now. 
+                                    right now.
 
                                     All videos are for educational purposes and
                                     use them wisely. Any video may have a slight
@@ -10674,7 +10643,7 @@ paths:
                                 description: >-
                                   Document your progress and share your React
                                   Native journey on your own Hashnode blog for
-                                  free: 
+                                  free:
 
                                   https://hashnode.com/?source=hitesh
 
@@ -10705,7 +10674,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -10720,7 +10689,7 @@ paths:
                                   description: >-
                                     Document your progress and share your React
                                     Native journey on your own Hashnode blog for
-                                    free: 
+                                    free:
 
                                     https://hashnode.com/?source=hitesh
 
@@ -10751,7 +10720,7 @@ paths:
 
                                     It doesn't feel good to have a disclaimer in
                                     every video but this is how the world is
-                                    right now. 
+                                    right now.
 
                                     All videos are for educational purposes and
                                     use them wisely. Any video may have a slight
@@ -10847,7 +10816,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -10878,7 +10847,7 @@ paths:
 
                                     It doesn't feel good to have a disclaimer in
                                     every video but this is how the world is
-                                    right now. 
+                                    right now.
 
                                     All videos are for educational purposes and
                                     use them wisely. Any video may have a slight
@@ -11051,7 +11020,7 @@ paths:
                           snippet:
                             publishedAt: '2023-07-18T16:30:07Z'
                             channelId: UCXgGY0wkgOzynnHvSEVmE3A
-                            title: FreeAPI local setup with npm
+                            title: AllInOneAPIs local setup with npm
                             description: "https://hc.lco.dev/jscamp2\nWallpaper: https://imgur.com/a/FYHfk\n\nFacebook:
                               https://www.facebook.com/HiteshChoudharyPage\nInstagram: https://instagram.com/hiteshchoudharyofficial\nhomepage:
                               http://www.hiteshChoudhary.com\n\nDisclaimer:\nIt doesn't feel good to have
@@ -11091,7 +11060,7 @@ paths:
                             categoryId: '28'
                             liveBroadcastContent: none
                             localized:
-                              title: FreeAPI local setup with npm
+                              title: AllInOneAPIs local setup with npm
                               description: "https://hc.lco.dev/jscamp2\nWallpaper: https://imgur.com/a/FYHfk\n\nFacebook:
                                 https://www.facebook.com/HiteshChoudharyPage\nInstagram: https://instagram.com/hiteshchoudharyofficial\nhomepage:
                                 http://www.hiteshChoudhary.com\n\nDisclaimer:\nIt doesn't feel good to
@@ -11121,9 +11090,9 @@ paths:
                           snippet:
                             publishedAt: '2023-07-18T12:33:40Z'
                             channelId: UCXgGY0wkgOzynnHvSEVmE3A
-                            title: Open Source Project Launch | FreeAPI.app
+                            title: Open Source Project Launch | AllInOneAPIs.app
                             description: "Learn about API and master them with our new open source project.
-                              Check it out here:\nhttps://freeapi.app\n\nFacebook: https://www.facebook.com/HiteshChoudharyPage\nInstagram:
+                              Check it out here:\nhttps://AllInOneAPIs.app\n\nFacebook: https://www.facebook.com/HiteshChoudharyPage\nInstagram:
                               https://instagram.com/hiteshchoudharyofficial\nhomepage: http://www.hiteshChoudhary.com\n\nDisclaimer:\nIt
                               doesn't feel good to have a disclaimer in every video but this is how the
                               world is right now. \nAll videos are for educational purposes and use them
@@ -11161,9 +11130,9 @@ paths:
                             categoryId: '28'
                             liveBroadcastContent: none
                             localized:
-                              title: Open Source Project Launch | FreeAPI.app
+                              title: Open Source Project Launch | AllInOneAPIs.app
                               description: "Learn about API and master them with our new open source project.
-                                Check it out here:\nhttps://freeapi.app\n\nFacebook: https://www.facebook.com/HiteshChoudharyPage\nInstagram:
+                                Check it out here:\nhttps://AllInOneAPIs.app\n\nFacebook: https://www.facebook.com/HiteshChoudharyPage\nInstagram:
                                 https://instagram.com/hiteshchoudharyofficial\nhomepage: http://www.hiteshChoudhary.com\n\nDisclaimer:\nIt
                                 doesn't feel good to have a disclaimer in every video but this is how
                                 the world is right now. \nAll videos are for educational purposes and
@@ -12012,7 +11981,7 @@ paths:
 
                                       It doesn't feel good to have a disclaimer
                                       in every video but this is how the world
-                                      is right now. 
+                                      is right now.
 
                                       All videos are for educational purposes
                                       and use them wisely. Any video may have a
@@ -12050,7 +12019,7 @@ paths:
 
                                           It doesn't feel good to have a
                                           disclaimer in every video but this is
-                                          how the world is right now. 
+                                          how the world is right now.
 
                                           All videos are for educational purposes
                                           and use them wisely. Any video may have
@@ -12313,7 +12282,7 @@ paths:
                               Disclaimer:
 
                               It doesn't feel good to have a disclaimer in every
-                              video but this is how the world is right now. 
+                              video but this is how the world is right now.
 
                               All videos are for educational purposes and use
                               them wisely. Any video may have a slight mistake,
@@ -12343,7 +12312,7 @@ paths:
 
                                 It doesn't feel good to have a disclaimer in
                                 every video but this is how the world is right
-                                now. 
+                                now.
 
                                 All videos are for educational purposes and use
                                 them wisely. Any video may have a slight
@@ -13039,7 +13008,7 @@ paths:
 
                                         It doesn't feel good to have a
                                         disclaimer in every video but this is
-                                        how the world is right now. 
+                                        how the world is right now.
 
                                         All videos are for educational purposes
                                         and use them wisely. Any video may have
@@ -13078,7 +13047,7 @@ paths:
 
                                             It doesn't feel good to have a
                                             disclaimer in every video but this is
-                                            how the world is right now. 
+                                            how the world is right now.
 
                                             All videos are for educational purposes
                                             and use them wisely. Any video may have
@@ -13238,7 +13207,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -13270,7 +13239,7 @@ paths:
 
                                     It doesn't feel good to have a disclaimer in
                                     every video but this is how the world is
-                                    right now. 
+                                    right now.
 
                                     All videos are for educational purposes and
                                     use them wisely. Any video may have a slight
@@ -13361,7 +13330,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -13390,7 +13359,7 @@ paths:
 
                                     It doesn't feel good to have a disclaimer in
                                     every video but this is how the world is
-                                    right now. 
+                                    right now.
 
                                     All videos are for educational purposes and
                                     use them wisely. Any video may have a slight
@@ -13537,7 +13506,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -13568,7 +13537,7 @@ paths:
 
                                     It doesn't feel good to have a disclaimer in
                                     every video but this is how the world is
-                                    right now. 
+                                    right now.
 
                                     All videos are for educational purposes and
                                     use them wisely. Any video may have a slight
@@ -13768,7 +13737,7 @@ paths:
 
                                 It doesn't feel good to have a disclaimer in
                                 every video but this is how the world is right
-                                now. 
+                                now.
 
                                 All videos are for educational purposes and use
                                 them wisely. Any video may have a slight
@@ -13800,7 +13769,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -13890,7 +13859,7 @@ paths:
 
                                 It doesn't feel good to have a disclaimer in
                                 every video but this is how the world is right
-                                now. 
+                                now.
 
                                 All videos are for educational purposes and use
                                 them wisely. Any video may have a slight
@@ -13919,7 +13888,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -14065,7 +14034,7 @@ paths:
 
                                 It doesn't feel good to have a disclaimer in
                                 every video but this is how the world is right
-                                now. 
+                                now.
 
                                 All videos are for educational purposes and use
                                 them wisely. Any video may have a slight
@@ -14096,7 +14065,7 @@ paths:
 
                                   It doesn't feel good to have a disclaimer in
                                   every video but this is how the world is right
-                                  now. 
+                                  now.
 
                                   All videos are for educational purposes and
                                   use them wisely. Any video may have a slight
@@ -14470,12 +14439,12 @@ paths:
                               channelTitle: Hitesh Choudhary
                               description: >-
                                 Learn and master API with our open source
-                                project, https://freeapi.app
+                                project, https://AllInOneAPIs.app
                               localized:
                                 description: >-
                                   Learn and master API with our open source
-                                  project, https://freeapi.app
-                                title: FreeAPI.app
+                                  project, https://AllInOneAPIs.app
+                                title: AllInOneAPIs.app
                               publishedAt: '2023-07-18T12:28:02Z'
                               thumbnails:
                                 default:
@@ -14503,7 +14472,7 @@ paths:
                                   url: >-
                                     https://i.ytimg.com/vi/xJq0EQMFGyg/sddefault.jpg
                                   width: 640
-                              title: FreeAPI.app
+                              title: AllInOneAPIs.app
                           - id: PLRAV69dS1uWR7KF-zV6YPYtKYEHENETyE
                             kind: youtube#playlist
                             snippet:
@@ -14740,12 +14709,12 @@ paths:
                             channelTitle: Hitesh Choudhary
                             description: >-
                               Learn and master API with our open source project,
-                              https://freeapi.app
+                              https://AllInOneAPIs.app
                             localized:
                               description: >-
                                 Learn and master API with our open source
-                                project, https://freeapi.app
-                              title: FreeAPI.app
+                                project, https://AllInOneAPIs.app
+                              title: AllInOneAPIs.app
                             publishedAt: '2023-07-18T12:28:02Z'
                             thumbnails:
                               default:
@@ -14772,7 +14741,7 @@ paths:
                                 url: >-
                                   https://i.ytimg.com/vi/xJq0EQMFGyg/sddefault.jpg
                                 width: 640
-                            title: FreeAPI.app
+                            title: AllInOneAPIs.app
                         - id: PLRAV69dS1uWR7KF-zV6YPYtKYEHENETyE
                           kind: youtube#playlist
                           snippet:
@@ -15198,7 +15167,7 @@ paths:
                                 type: string
                                 example: >-
                                   Learn and master API with our open source
-                                  project, https://freeapi.app
+                                  project, https://AllInOneAPIs.app
                               localized:
                                 type: object
                                 properties:
@@ -15206,10 +15175,10 @@ paths:
                                     type: string
                                     example: >-
                                       Learn and master API with our open source
-                                      project, https://freeapi.app
+                                      project, https://AllInOneAPIs.app
                                   title:
                                     type: string
-                                    example: FreeAPI.app
+                                    example: AllInOneAPIs.app
                               publishedAt:
                                 type: string
                                 example: '2023-07-18T12:28:02Z'
@@ -15283,7 +15252,7 @@ paths:
                                         example: 640
                               title:
                                 type: string
-                                example: FreeAPI.app
+                                example: AllInOneAPIs.app
                       playlistItems:
                         type: array
                         items:
@@ -15311,7 +15280,7 @@ paths:
                                     Learn about API and master them with our new
                                     open source project. Check it out here:
 
-                                    https://freeapi.app
+                                    https://AllInOneAPIs.app
 
 
                                     Facebook:
@@ -15327,7 +15296,7 @@ paths:
 
                                     It doesn't feel good to have a disclaimer in
                                     every video but this is how the world is
-                                    right now. 
+                                    right now.
 
                                     All videos are for educational purposes and
                                     use them wisely. Any video may have a slight
@@ -15426,7 +15395,7 @@ paths:
                                           example: 640
                                 title:
                                   type: string
-                                  example: Open Source Project Launch | FreeAPI.app
+                                  example: Open Source Project Launch | AllInOneAPIs.app
                                 videoOwnerChannelId:
                                   type: string
                                   example: UCXgGY0wkgOzynnHvSEVmE3A
@@ -15444,7 +15413,7 @@ paths:
                                 Learn about API and master them with our new
                                 open source project. Check it out here:
 
-                                https://freeapi.app
+                                https://AllInOneAPIs.app
 
 
                                 Facebook:
@@ -15460,7 +15429,7 @@ paths:
 
                                 It doesn't feel good to have a disclaimer in
                                 every video but this is how the world is right
-                                now. 
+                                now.
 
                                 All videos are for educational purposes and use
                                 them wisely. Any video may have a slight
@@ -15502,7 +15471,7 @@ paths:
                                   url: >-
                                     https://i.ytimg.com/vi/xJq0EQMFGyg/sddefault.jpg
                                   width: 640
-                              title: Open Source Project Launch | FreeAPI.app
+                              title: Open Source Project Launch | AllInOneAPIs.app
                               videoOwnerChannelId: UCXgGY0wkgOzynnHvSEVmE3A
                               videoOwnerChannelTitle: Hitesh Choudhary
                           - id: >-
@@ -15530,7 +15499,7 @@ paths:
 
                                 It doesn't feel good to have a disclaimer in
                                 every video but this is how the world is right
-                                now. 
+                                now.
 
                                 All videos are for educational purposes and use
                                 them wisely. Any video may have a slight
@@ -15572,7 +15541,7 @@ paths:
                                   url: >-
                                     https://i.ytimg.com/vi/dtzfTePFKgM/sddefault.jpg
                                   width: 640
-                              title: FreeAPI local setup with npm
+                              title: AllInOneAPIs local setup with npm
                               videoOwnerChannelId: UCXgGY0wkgOzynnHvSEVmE3A
                               videoOwnerChannelTitle: Hitesh Choudhary
                   message:
@@ -15687,12 +15656,12 @@ paths:
                           channelTitle: Hitesh Choudhary
                           description: >-
                             Learn and master API with our open source project,
-                            https://freeapi.app
+                            https://AllInOneAPIs.app
                           localized:
                             description: >-
                               Learn and master API with our open source project,
-                              https://freeapi.app
-                            title: FreeAPI.app
+                              https://AllInOneAPIs.app
+                            title: AllInOneAPIs.app
                           publishedAt: '2023-07-18T12:28:02Z'
                           thumbnails:
                             default:
@@ -15716,7 +15685,7 @@ paths:
                               height: 480
                               url: https://i.ytimg.com/vi/xJq0EQMFGyg/sddefault.jpg
                               width: 640
-                          title: FreeAPI.app
+                          title: AllInOneAPIs.app
                       playlistItems:
                         - id: >-
                             UExSQVY2OWRTMXVXU3g0ZXJIR3E4aFdfR0UtRWFqNjByLS41NkI0NEY2RDEwNTU3Q0M2
@@ -15728,7 +15697,7 @@ paths:
                               Learn about API and master them with our new open
                               source project. Check it out here:
 
-                              https://freeapi.app
+                              https://AllInOneAPIs.app
 
 
                               Facebook:
@@ -15743,7 +15712,7 @@ paths:
                               Disclaimer:
 
                               It doesn't feel good to have a disclaimer in every
-                              video but this is how the world is right now. 
+                              video but this is how the world is right now.
 
                               All videos are for educational purposes and use
                               them wisely. Any video may have a slight mistake,
@@ -15783,7 +15752,7 @@ paths:
                                 url: >-
                                   https://i.ytimg.com/vi/xJq0EQMFGyg/sddefault.jpg
                                 width: 640
-                            title: Open Source Project Launch | FreeAPI.app
+                            title: Open Source Project Launch | AllInOneAPIs.app
                             videoOwnerChannelId: UCXgGY0wkgOzynnHvSEVmE3A
                             videoOwnerChannelTitle: Hitesh Choudhary
                         - id: >-
@@ -15810,7 +15779,7 @@ paths:
                               Disclaimer:
 
                               It doesn't feel good to have a disclaimer in every
-                              video but this is how the world is right now. 
+                              video but this is how the world is right now.
 
                               All videos are for educational purposes and use
                               them wisely. Any video may have a slight mistake,
@@ -15850,7 +15819,7 @@ paths:
                                 url: >-
                                   https://i.ytimg.com/vi/dtzfTePFKgM/sddefault.jpg
                                 width: 640
-                            title: FreeAPI local setup with npm
+                            title: AllInOneAPIs local setup with npm
                             videoOwnerChannelId: UCXgGY0wkgOzynnHvSEVmE3A
                             videoOwnerChannelTitle: Hitesh Choudhary
                     message: Playlist fetched successfully
@@ -15867,7 +15836,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Get request
       description: >-
         The `GET` method is used to retrieve or fetch a representation of a
@@ -16010,7 +15979,7 @@ paths:
     post:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Post request
       description: >-
         The `POST` method is used to submit data to be processed by the server.
@@ -16158,7 +16127,7 @@ paths:
     put:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Put request
       description: >-
         The `PUT` method is used to update or replace an existing resource on
@@ -16305,7 +16274,7 @@ paths:
     patch:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Patch request
       description: >-
         The `PATCH` method is used to partially update an existing resource on
@@ -16453,7 +16422,7 @@ paths:
     delete:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Delete request
       description: >-
         The `DELETE` method is used to remove or delete a specific resource on
@@ -16595,7 +16564,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Get all status codes
       description: >-
         This API endpoint is designed to provide a comprehensive list of all
@@ -18148,7 +18117,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Get status code
       description: >-
         This API endpoint allows users to retrieve detailed information about a
@@ -18258,7 +18227,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Get request headers
       description: >-
         This API endpoint is designed to provide information about the headers
@@ -18373,7 +18342,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Get client IP
       description: >-
         This API endpoint is designed to provide the current client's IP
@@ -18455,7 +18424,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Get user agent
       description: >-
         This API endpoint is designed to provide information about the user
@@ -18534,7 +18503,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Get path variable
       description: >-
         The API endpoint allows you to retrieve the path variable being supplied
@@ -18636,7 +18605,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Get query parameters
       description: >-
         The API endpoint provides the capability to retrieve the query
@@ -18755,7 +18724,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Get response headers
       description: >-
         The API endpoint enables you to retrieve the response headers.
@@ -18865,7 +18834,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Set cache control header
       description: "- `Cache-control`\_is an HTTP header used to specify browser caching policies in both client requests and server responses.\n    \n\n- Policies include how a resource is cached, where it’s cached and its maximum age before expiring (i.e., time to live)\n    \n\n_For example,_\n\n`cache-control: max-age=120` means that the returned resource is valid for **120** seconds, after which the browser has to request a newer version.\n\n- The `public` (cacheResponseDirective) response directive indicates that a resource can be cached by any cache.  \n    \n- The `private` (cacheResponseDirective) response directive indicates that a resource is user specific - it can still be cached, but only on a client device. For example, a web page response marked as private can be cached by a desktop browser, but not a content delivery network (CDN)."
       operationId: setCacheControlHeader
@@ -18971,7 +18940,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Send HTML template response
       description: >-
         The API endpoint provides the ability to retrieve an HTML template as a
@@ -19065,7 +19034,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Send XML response
       description: >-
         The API endpoint allows you to retrieve an XML template as a response.
@@ -19135,7 +19104,7 @@ paths:
                 Send HTML template response Copy:
                   value: |-
                     <?xml version='1.0' encoding='us-ascii'?>
-                    <carousal 
+                    <carousal
                         title="Cool carousal"
                         date="Date of creation"
                         author="Yours Truly"
@@ -19147,11 +19116,11 @@ paths:
                         <!-- OVERVIEW -->
                         <panel type="all">
                             <title>Overview</title>
-                            <item>Why 
+                            <item>Why
                                 <em>Javascript</em> is the best
                             </item>
                             <item/>
-                            <item>Who 
+                            <item>Who
                                 <em>created</em> Javascript
                             </item>
                         </panel>
@@ -19160,7 +19129,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Send gzip response
       description: >-
         _GZIP encoding is a compression technique used to reduce the size of
@@ -19282,7 +19251,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Send brotli response
       description: >-
         _Brotli encoding is a modern compression algorithm specifically designed
@@ -19397,7 +19366,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Get cookies
       description: >-
         The API endpoint allows you to retrieve the cookies sent by the client
@@ -19484,7 +19453,7 @@ paths:
     post:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Set cookie
       description: >-
         The API endpoint allows you to set cookies on the client's browser as
@@ -19588,7 +19557,7 @@ paths:
     delete:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Remove cookie
       description: >-
         The API endpoint facilitates the deletion of cookies from the client's
@@ -19827,7 +19796,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Send JPEG image
       description: >-
         The API endpoint sends an image response in JPEG format.
@@ -19843,7 +19812,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Send JPG image
       description: >-
         The API endpoint sends an image response in JPG format.
@@ -19859,7 +19828,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Send PNG image
       description: >-
         The API endpoint sends an image response in PNG format.
@@ -19875,7 +19844,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Send WEBP image
       description: >-
         The API endpoint sends an image response in WEBP format.
@@ -19891,7 +19860,7 @@ paths:
     get:
       tags:
         - 🚰 Kitchen Sink
-        
+
       summary: Send SVG image
       description: >-
         The API endpoint sends an image response in SVG format.
@@ -19906,9 +19875,9 @@ paths:
   /users/google:
     get:
       tags:
-        
+
         - 🔐 Authentication
-        
+
       summary: Redirect to google login
       description: >-
         Redirect user to this url when user clicks on the **`Login with
@@ -19924,9 +19893,9 @@ paths:
   /users/google/callback:
     get:
       tags:
-        
+
         - 🔐 Authentication
-        
+
       summary: Google login callback url
       description: >-
         Google will send user details in JSON format once user successfully logs
@@ -19943,9 +19912,9 @@ paths:
   /users/github:
     get:
       tags:
-        
+
         - 🔐 Authentication
-        
+
       summary: Redirect to github login
       description: >-
         Redirect user to this url when user clicks on the **`Login with
@@ -19961,9 +19930,9 @@ paths:
   /users/github/callback:
     get:
       tags:
-        
+
         - 🔐 Authentication
-        
+
       summary: Github login callback url
       description: >-
         Github will send user details in JSON format once user successfully logs
@@ -19980,7 +19949,7 @@ paths:
   /users/current-user:
     get:
       tags:
-        
+
         - 🔐 Authentication
       summary: Get logged in user
       description: >-
@@ -20119,7 +20088,7 @@ paths:
   /users/verify-email/{verificationToken}:
     get:
       tags:
-        
+
         - 🔐 Authentication
       summary: Verify user email
       description: >-
@@ -20210,7 +20179,7 @@ paths:
   /users/register:
     post:
       tags:
-        
+
         - 🔐 Authentication
       summary: Register user
       description: >-
@@ -20375,7 +20344,7 @@ paths:
   /users/login:
     post:
       tags:
-        
+
         - 🔐 Authentication
       summary: Login user
       description: >-
@@ -20566,7 +20535,7 @@ paths:
   /users/logout:
     post:
       tags:
-        
+
         - 🔐 Authentication
       summary: Logout user
       description: >-
@@ -20652,7 +20621,7 @@ paths:
   /users/refresh-token:
     post:
       tags:
-        
+
         - 🔐 Authentication
       summary: Refresh token
       description: >-
@@ -20758,7 +20727,7 @@ paths:
   /users/assign-role/{userId}:
     post:
       tags:
-        
+
         - 🔐 Authentication
       summary: Assign role
       description: >-
@@ -20854,7 +20823,7 @@ paths:
   /users/resend-email-verification:
     post:
       tags:
-        
+
         - 🔐 Authentication
       summary: Resend email verification
       description: >-
@@ -21007,7 +20976,7 @@ paths:
                     type: string
                     example: |-
                       Error: Email is already verified!
-                          at file:///usr/src/freeapi/src/controllers/apps/auth/user.controllers.js:240:11
+                          at file:///usr/src/AllInOneAPIs/src/controllers/apps/auth/user.controllers.js:240:11
                           at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
                   statusCode:
                     type: number
@@ -21023,14 +20992,14 @@ paths:
                     message: Email is already verified!
                     stack: |-
                       Error: Email is already verified!
-                          at file:///usr/src/freeapi/src/controllers/apps/auth/user.controllers.js:240:11
+                          at file:///usr/src/AllInOneAPIs/src/controllers/apps/auth/user.controllers.js:240:11
                           at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
                     statusCode: 409
                     success: false
   /users/change-password:
     post:
       tags:
-        
+
         - 🔐 Authentication
       summary: Change current password
       description: >-
@@ -21124,7 +21093,7 @@ paths:
   /users/forgot-password:
     post:
       tags:
-        
+
         - 🔐 Authentication
       summary: Forgot password request
       description: >-
@@ -21215,7 +21184,7 @@ paths:
   /users/reset-password/{resetToken}:
     post:
       tags:
-        
+
         - 🔐 Authentication
       summary: Reset forgotten password
       description: >-
@@ -21313,7 +21282,7 @@ paths:
   /users/avatar:
     patch:
       tags:
-        
+
         - 🔐 Authentication
       summary: Update avatar
       description: >-
@@ -21485,9 +21454,9 @@ paths:
   /ecommerce/profile:
     get:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Get my profile
       description: >-
         The API endpoint allows you to retrieve the e-commerce profile of the
@@ -21611,9 +21580,9 @@ paths:
                     success: true
     patch:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Update my profile
       description: >-
         The API endpoint allows a logged-in user to update their e-commerce
@@ -21746,9 +21715,9 @@ paths:
   /ecommerce/profile/my-orders:
     get:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Get my orders
       description: >-
         The API endpoint allows you to retrieve the placed orders of the
@@ -22028,9 +21997,9 @@ paths:
   /ecommerce/products:
     get:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Get all products
       description: >-
         The API returns all the products available in an e-commerce application.
@@ -22951,9 +22920,9 @@ paths:
                     success: true
     post:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Create product
       description: >-
         The API enables an authenticated user with the role of `ADMIN` to create
@@ -22978,7 +22947,7 @@ paths:
 
         - subImages (up to **4** additional images that can be viewed in a
         carousel on the frontend).
-            
+
 
         By submitting this information via form data, the API allows
         administrators to efficiently add new products to the system, ensuring
@@ -23140,9 +23109,9 @@ paths:
   /ecommerce/products/{productId}:
     get:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Get product by id
       description: >-
         The API retrieves a product based on the provided `productId` passed as
@@ -23343,9 +23312,9 @@ paths:
                     success: true
     delete:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Delete product
       description: >-
         The API allows an authenticated user with the role of `ADMIN` to delete
@@ -23482,9 +23451,9 @@ paths:
                     success: true
     patch:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Update product
       description: >-
         The API enables an authenticated user with the role of `ADMIN` to update
@@ -23717,9 +23686,9 @@ paths:
   /ecommerce/products/category/{categoryId}:
     get:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Get products by category
       description: >-
         The API retrieves a product based on the category it belongs to.
@@ -24235,9 +24204,9 @@ paths:
   /ecommerce/products/remove/subimage/{productId}/{subImageId}:
     patch:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Remove sub image
       description: >-
         The API enables an `ADMIN` user to remove sub-images associated with a
@@ -24393,9 +24362,9 @@ paths:
   /ecommerce/cart:
     get:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Get user cart
       description: >-
         The API endpoint returns the cart of the logged-in user.
@@ -24806,9 +24775,9 @@ paths:
   /ecommerce/cart/item/{productId}:
     post:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Add item or update item quantity
       description: >-
         The API allows users to add a product to their cart or update the
@@ -24826,16 +24795,16 @@ paths:
 
         E.g. If user has `4` products already in cart and if user click on `add
         more` button frontend should send quantity as `5` in the same api.
-        
 
-        _**NOTES:**_ 
-       
-       
+
+        _**NOTES:**_
+
+
         _Quanity that is passed in the request body will be assigned
         directly and will be treated as a new quantity for the respective
         product._
 
-       
+
         _Minimum quantity should be 1. Once user decrements it from 1, instead of sending 0 call remove item from cart api._
       operationId: addItemOrUpdateItemQuantity
       requestBody:
@@ -25185,9 +25154,9 @@ paths:
                     success: true
     delete:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Remove item from cart
       description: >-
         The API allows users to remove/discard a complete product from their
@@ -25340,9 +25309,9 @@ paths:
   /ecommerce/cart/clear:
     delete:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Clear cart
       description: >-
         The API endpoint allows a logged-in user to clear their entire shopping
@@ -25420,9 +25389,9 @@ paths:
   /ecommerce/categories:
     get:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Get all categories
       description: >-
         The API endpoint allows users to fetch all the available categories in
@@ -25638,9 +25607,9 @@ paths:
                     success: true
     post:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Create category
       description: >-
         The API endpoint allows an administrator user with the appropriate role
@@ -25753,9 +25722,9 @@ paths:
   /ecommerce/categories/{categoryId}:
     get:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Get category by id
       description: >-
         The API endpoint allows users to fetch a category based on the
@@ -25864,9 +25833,9 @@ paths:
                     success: true
     delete:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Delete category
       description: >-
         The API endpoint allows an administrator to delete a category by
@@ -25970,9 +25939,9 @@ paths:
                     success: true
     patch:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Update category
       description: >-
         The API endpoint allows users with an `ADMIN` role to update a category
@@ -26093,9 +26062,9 @@ paths:
   /ecommerce/coupons:
     get:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Get all coupons
       description: >-
         The API endpoint allows a logged-in user to retrieve all the available
@@ -26402,9 +26371,9 @@ paths:
                     success: true
     post:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Create coupon
       description: >-
         The API allows users with an `ADMIN` role to create a coupon.
@@ -26583,9 +26552,9 @@ paths:
   /ecommerce/coupons/customer/available:
     get:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Get available coupon codes for customer
       description: >-
         The API allows a logged-in user to retrieve a list of coupons based on
@@ -26897,9 +26866,9 @@ paths:
   /ecommerce/coupons/{couponId}:
     get:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Get coupon by id
       description: >-
         The API endpoint allows a logged-in user to retrieve a coupon by
@@ -27037,9 +27006,9 @@ paths:
                     success: true
     delete:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Delete coupon
       description: >-
         The API allows users with an `ADMIN` role to delete a coupon by
@@ -27163,9 +27132,9 @@ paths:
                     success: true
     patch:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Update coupon
       description: >-
         The API allows an `ADMIN` role user to update a coupon by sending the
@@ -27314,9 +27283,9 @@ paths:
   /ecommerce/coupons/c/apply:
     post:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Apply coupon code
       description: >-
         The API allows a logged-in user to apply a coupon before proceeding to
@@ -27335,7 +27304,7 @@ paths:
         3. **Return of updated cart:** Finally, the API returns the updated cart
         to the user, reflecting the applied discount. The user can then proceed
         to checkout with the discounted cart value.
-            
+
 
         In summary, this API provides a mechanism for users to apply coupons,
         verifies their eligibility, calculates the discounted cart value, and
@@ -27797,7 +27766,7 @@ paths:
                     example: >-
                       Error: Add items worth INR 170/- or more to apply this
                       coupon
-                          at file:///usr/src/freeapi/src/controllers/apps/ecommerce/coupon.controllers.js:92:11
+                          at file:///usr/src/AllInOneAPIs/src/controllers/apps/ecommerce/coupon.controllers.js:92:11
                           at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
                   statusCode:
                     type: number
@@ -27814,16 +27783,16 @@ paths:
                     stack: >-
                       Error: Add items worth INR 170/- or more to apply this
                       coupon
-                          at file:///usr/src/freeapi/src/controllers/apps/ecommerce/coupon.controllers.js:92:11
+                          at file:///usr/src/AllInOneAPIs/src/controllers/apps/ecommerce/coupon.controllers.js:92:11
                           at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
                     statusCode: 400
                     success: false
   /ecommerce/coupons/c/remove:
     post:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Remove coupon code
       description: >-
         The API for removing an applied coupon allows a logged-in user to remove
@@ -28061,9 +28030,9 @@ paths:
   /ecommerce/coupons/status/{couponId}:
     patch:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Update coupon active status
       description: >-
         The API endpoint allows an administrator role user to update the
@@ -28213,9 +28182,9 @@ paths:
   /ecommerce/addresses:
     get:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Get all addresses
       description: >-
         The API endpoint allows a logged-in user to retrieve all the addresses
@@ -28435,9 +28404,9 @@ paths:
                     success: true
     post:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Create address
       description: >-
         The API endpoint allows a logged-in user to create a new address in an
@@ -28591,9 +28560,9 @@ paths:
   /ecommerce/addresses/{addressId}:
     get:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Get address by id
       description: >-
         The API endpoint allows users to fetch an address based on the
@@ -28726,9 +28695,9 @@ paths:
                     success: true
     delete:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Delete address
       description: >-
         The API endpoint allows a logged-in user to delete their own address
@@ -28853,9 +28822,9 @@ paths:
                     success: true
     patch:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Update address
       description: >-
         The API endpoint allows a logged-in user to update their address based
@@ -29015,9 +28984,9 @@ paths:
   /ecommerce/orders/list/admin:
     get:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Get order list admin
       description: >-
         The API allows users with the `ADMIN` role to fetch orders placed by
@@ -29855,9 +29824,9 @@ paths:
   /ecommerce/orders/{orderId}:
     get:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Get order by id
       description: >-
         The API allows users to retrieve information about an order placed by a
@@ -30474,9 +30443,9 @@ paths:
   /ecommerce/orders/provider/razorpay:
     post:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Generate razorpay order
       description: >-
         The API allows a user to generate a **Razorpay** order instance,
@@ -30615,9 +30584,9 @@ paths:
   /ecommerce/orders/provider/paypal:
     post:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Generate paypal order
       description: >-
         The API allows a user to generate a **PayPal** order instance,
@@ -30764,9 +30733,9 @@ paths:
   /ecommerce/orders/provider/razorpay/verify-payment:
     post:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Verify razorpay payment
       description: >-
         The API handles the verification of a Razorpay payment.
@@ -30939,9 +30908,9 @@ paths:
   /ecommerce/orders/provider/paypal/verify-payment:
     post:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Verify paypal payment
       description: >-
         The API handles the verification of a **PayPal** payment by integrating
@@ -30977,9 +30946,9 @@ paths:
   /ecommerce/orders/status/{orderId}:
     patch:
       tags:
-        
+
         - 🛒 Ecommerce
-        
+
       summary: Update order status
       description: >-
         The API allows an authenticated user with the role of `ADMIN` to update
@@ -31080,7 +31049,7 @@ paths:
   /todos:
     get:
       tags:
-        
+
         - 📝 Todo list
       summary: Get all todos
       description: >-
@@ -31244,7 +31213,7 @@ paths:
   /todos/{todoId}:
     get:
       tags:
-        
+
         - 📝 Todo list
       summary: Get todo by id
       description: >-
@@ -31346,7 +31315,7 @@ paths:
                     success: true
     delete:
       tags:
-        
+
         - 📝 Todo list
       summary: Delete todo
       description: >-
@@ -31451,7 +31420,7 @@ paths:
                     success: true
     patch:
       tags:
-        
+
         - 📝 Todo list
       summary: Update todo
       description: >-
@@ -31576,7 +31545,7 @@ paths:
   /todos/:
     post:
       tags:
-        
+
         - 📝 Todo list
       summary: Create todo
       description: >-
@@ -31693,7 +31662,7 @@ paths:
   /todos/toggle/status/{todoId}:
     patch:
       tags:
-        
+
         - 📝 Todo list
       summary: Toggle todo done status
       description: >-
@@ -31803,9 +31772,9 @@ paths:
   /social-media/profile:
     get:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Get my profile
       description: >-
         The API endpoint allows a logged-in user to fetch their social media
@@ -32004,9 +31973,9 @@ paths:
                     success: true
     patch:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Update user profile
       description: >-
         The API endpoint allows users to update their social media profiles.
@@ -32266,9 +32235,9 @@ paths:
   /social-media/profile/u/{username}:
     get:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Get profile by username
       description: >-
         The API endpoint allows users to fetch another user's social media
@@ -32475,9 +32444,9 @@ paths:
   /social-media/profile/cover-image:
     patch:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Update cover image
       description: >-
         The API endpoint allows users to update their social media profile's
@@ -32709,9 +32678,9 @@ paths:
   /social-media/posts:
     get:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Get all posts
       description: >-
         The API endpoint allows users to fetch all posts posted by themselves or
@@ -34477,9 +34446,9 @@ paths:
                     success: true
     post:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Create a post
       description: >-
         The API allows a logged-in user to create a social media post by
@@ -34826,9 +34795,9 @@ paths:
   /social-media/posts/{postId}:
     get:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Get post by id
       description: >-
         The API endpoint allows users to fetch a post by providing the post ID
@@ -35143,9 +35112,9 @@ paths:
                     success: true
     delete:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Delete a post
       description: >-
         The API endpoint allows users to delete a post by passing the post ID as
@@ -35223,9 +35192,9 @@ paths:
                     success: true
     patch:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Update post
       description: >-
         The API endpoint allows users to update a post by passing relevant data,
@@ -35612,7 +35581,7 @@ paths:
                     example: >-
                       Error: Maximum 6 images are allowed for a post. There are
                       already 6 images attached to the post.
-                          at file:///usr/src/freeapi/src/controllers/apps/social-media/post.controllers.js:219:11
+                          at file:///usr/src/AllInOneAPIs/src/controllers/apps/social-media/post.controllers.js:219:11
                           at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
                   statusCode:
                     type: number
@@ -35631,7 +35600,7 @@ paths:
                     stack: >-
                       Error: Maximum 6 images are allowed for a post. There are
                       already 6 images attached to the post.
-                          at file:///usr/src/freeapi/src/controllers/apps/social-media/post.controllers.js:219:11
+                          at file:///usr/src/AllInOneAPIs/src/controllers/apps/social-media/post.controllers.js:219:11
                           at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
                     statusCode: 400
                     success: false
@@ -35645,9 +35614,9 @@ paths:
   /social-media/posts/get/my:
     get:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Get my posts
       description: >-
         The API endpoint allows a logged-in user to fetch their own posts, which
@@ -36087,9 +36056,9 @@ paths:
   /social-media/posts/get/u/{username}:
     get:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Get posts by username
       description: >-
         The API endpoint allows users to fetch posts of other users by passing
@@ -36830,9 +36799,9 @@ paths:
   /social-media/posts/get/t/{tag}:
     get:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Get posts by tag
       description: >-
         The API endpoint allows users to retrieve posts by passing a tag name as
@@ -37595,9 +37564,9 @@ paths:
   /social-media/posts/remove/image/{postId}/{imageId}:
     patch:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Remove post image
       description: >-
         The API endpoint allows users to remove an individual image from a
@@ -37917,9 +37886,9 @@ paths:
   /social-media/like/post/{postId}:
     post:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Like or unlike post
       description: >-
         The API endpoint enables users to like or unlike a social media post.
@@ -38014,9 +37983,9 @@ paths:
   /social-media/like/comment/{commentId}:
     post:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Like or unlike comment
       description: >-
         The API endpoint enables users to like or unlike a social media
@@ -38112,9 +38081,9 @@ paths:
   /social-media/comments/post/{postId}:
     get:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Get post comments
       description: >-
         The API endpoint allows users to retrieve a list of comments associated
@@ -38652,9 +38621,9 @@ paths:
                     success: true
     post:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Add comment
       description: >-
         The API endpoint allows users to add a comment to a specific post based
@@ -38786,9 +38755,9 @@ paths:
   /social-media/comments/{commentId}:
     delete:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Delete comment
       description: >-
         The API endpoint enables users to delete a specific comment on a post
@@ -38910,9 +38879,9 @@ paths:
                     success: true
     patch:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Update comment
       description: >-
         The API endpoint allows users to update a comment associated with a post
@@ -39054,9 +39023,9 @@ paths:
   /social-media/bookmarks:
     get:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Get bookmarked posts
       description: >-
         The API endpoint allows you to retrieve the bookmarked posts of the
@@ -39941,9 +39910,9 @@ paths:
   /social-media/bookmarks/{postId}:
     post:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Add or remove bookmark
       description: >-
         The API endpoint allows users to add or remove posts from their
@@ -40039,9 +40008,9 @@ paths:
   /social-media/follow/list/followers/{username}:
     get:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Get user's followers list
       description: >-
         The API endpoint allows you to retrieve the list of followers for a
@@ -40609,9 +40578,9 @@ paths:
   /social-media/follow/list/following/{username}:
     get:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Get user's following to list
       description: >-
         The API endpoint allows you to retrieve the list of users which are
@@ -41180,9 +41149,9 @@ paths:
   /social-media/follow/{toBeFollowedUserId}:
     post:
       tags:
-        
+
         - 📸 Social Media
-        
+
       summary: Follow or unfollow user
       description: >-
         The API endpoint allows users to follow or unfollow other users within
@@ -41267,9 +41236,9 @@ paths:
   /chat-app/chats:
     get:
       tags:
-        
+
         - 💬 Chat App
-        
+
       summary: Get user's chat list
       description: >-
         Retrieve all chats associated with the logged-in user.
@@ -42031,9 +42000,9 @@ paths:
   /chat-app/chats/users:
     get:
       tags:
-        
+
         - 💬 Chat App
-        
+
       summary: Get available users
       description: >-
         This API endpoint enables developers to retrieve a list of users who are
@@ -43742,9 +43711,9 @@ paths:
   /chat-app/chats/c/{receiverId}:
     post:
       tags:
-        
+
         - 💬 Chat App
-        
+
       summary: Create or get a one on one chat
       description: >-
         This API endpoint enables a logged-in user to initiate a personalized
@@ -43970,9 +43939,9 @@ paths:
   /chat-app/chats/remove/{chatId}:
     delete:
       tags:
-        
+
         - 💬 Chat App
-        
+
       summary: Delete one on one chat
       description: >-
         This API endpoint empowers logged-in users to seamlessly delete a
@@ -44070,9 +44039,9 @@ paths:
   /chat-app/chats/group:
     post:
       tags:
-        
+
         - 💬 Chat App
-        
+
       summary: Create a group chat
       description: >-
         This API endpoint enables a logged-in user to initiate the creation of a
@@ -44422,10 +44391,10 @@ paths:
                     type: string
                     example: |-
                       Error: Received data is not valid
-                          at validate (file:///usr/src/freeapi/src/validators/validate.js:24:9)
-                          at Layer.handle [as handle_request] (/usr/src/freeapi/node_modules/express/lib/router/layer.js:95:5)
-                          at next (/usr/src/freeapi/node_modules/express/lib/router/route.js:144:13)
-                          at middleware (/usr/src/freeapi/node_modules/express-validator/src/middlewares/check.js:16:13)
+                          at validate (file:///usr/src/AllInOneAPIs/src/validators/validate.js:24:9)
+                          at Layer.handle [as handle_request] (/usr/src/AllInOneAPIs/node_modules/express/lib/router/layer.js:95:5)
+                          at next (/usr/src/AllInOneAPIs/node_modules/express/lib/router/route.js:144:13)
+                          at middleware (/usr/src/AllInOneAPIs/node_modules/express-validator/src/middlewares/check.js:16:13)
                           at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
                   statusCode:
                     type: number
@@ -44444,19 +44413,19 @@ paths:
                     message: Received data is not valid
                     stack: |-
                       Error: Received data is not valid
-                          at validate (file:///usr/src/freeapi/src/validators/validate.js:24:9)
-                          at Layer.handle [as handle_request] (/usr/src/freeapi/node_modules/express/lib/router/layer.js:95:5)
-                          at next (/usr/src/freeapi/node_modules/express/lib/router/route.js:144:13)
-                          at middleware (/usr/src/freeapi/node_modules/express-validator/src/middlewares/check.js:16:13)
+                          at validate (file:///usr/src/AllInOneAPIs/src/validators/validate.js:24:9)
+                          at Layer.handle [as handle_request] (/usr/src/AllInOneAPIs/node_modules/express/lib/router/layer.js:95:5)
+                          at next (/usr/src/AllInOneAPIs/node_modules/express/lib/router/route.js:144:13)
+                          at middleware (/usr/src/AllInOneAPIs/node_modules/express-validator/src/middlewares/check.js:16:13)
                           at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
                     statusCode: 422
                     success: false
   /chat-app/chats/group/{chatId}:
     get:
       tags:
-        
+
         - 💬 Chat App
-        
+
       summary: Get group chat details
       description: >-
         This API endpoint allows developers to retrieve comprehensive
@@ -44820,9 +44789,9 @@ paths:
                     success: true
     delete:
       tags:
-        
+
         - 💬 Chat App
-        
+
       summary: Delete a group chat
       description: >-
         This API endpoint empowers group administrators to seamlessly delete a
@@ -44911,9 +44880,9 @@ paths:
                     success: true
     patch:
       tags:
-        
+
         - 💬 Chat App
-        
+
       summary: Update group chat name
       description: >-
         This API endpoint empowers group administrators to seamlessly update the
@@ -45178,9 +45147,9 @@ paths:
   /chat-app/chats/group/{chatId}/{participantId}:
     post:
       tags:
-        
+
         - 💬 Chat App
-        
+
       summary: Add participant in a group chat
       description: >-
         This API endpoint enables group administrators to effortlessly expand
@@ -45431,9 +45400,9 @@ paths:
                     success: true
     delete:
       tags:
-        
+
         - 💬 Chat App
-        
+
       summary: Remove participant from a group chat
       description: >-
         This API endpoint enables group administrators to efficiently manage
@@ -45665,9 +45634,9 @@ paths:
   /chat-app/chats/leave/group/{chatId}:
     delete:
       tags:
-        
+
         - 💬 Chat App
-        
+
       summary: Leave group chat
       description: >-
         This API endpoint enables logged in user to leave a specific group by
@@ -46151,9 +46120,9 @@ paths:
   /chat-app/messages/{chatId}:
     get:
       tags:
-        
+
         - 💬 Chat App
-        
+
       summary: Get all messages
       description: >-
         This API endpoint enables logged-in users to retrieve a comprehensive
@@ -47071,9 +47040,9 @@ paths:
                     success: true
     post:
       tags:
-        
+
         - 💬 Chat App
-        
+
       summary: Send message
       description: >-
         This API endpoint enables logged-in users to send messages to a specific
@@ -48028,83 +47997,6 @@ paths:
                     message: Database populated for chat app successfully
                     statusCode: 201
                     success: true
-  /reset-db:
-    delete:
-      tags:
-        - 🚫 Danger Zone
-      summary: Reset database
-      description: >-
-        ⚠️ DANGER ⚠️
-
-
-        This API endpoint is a potentially destructive operation designed to
-        allow users to drop or delete an entire database associated with their
-        account or application.
-
-
-        _**It should be used with caution as it permanently deletes all data
-        stored in the specified database.**_
-      operationId: resetDatabase
-      responses:
-        '200':
-          description: Reset database
-          headers:
-            Access-Control-Allow-Credentials:
-              schema:
-                type: string
-                example: 'true'
-            Access-Control-Allow-Origin:
-              schema:
-                type: string
-                example: '*'
-            Connection:
-              schema:
-                type: string
-                example: keep-alive
-            Content-Length:
-              schema:
-                type: string
-                example: '87'
-            Date:
-              schema:
-                type: string
-                example: Sun, 18 Jun 2023 08:05:27 GMT
-            ETag:
-              schema:
-                type: string
-                example: W/"57-trugP7n2P8gcoxEgnJVryfOxjwE"
-            Keep-Alive:
-              schema:
-                type: string
-                example: timeout=5
-            X-Powered-By:
-              schema:
-                type: string
-                example: Express
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  data:
-                    nullable: true
-                    example: null
-                  message:
-                    type: string
-                    example: Database dropped successfully
-                  statusCode:
-                    type: number
-                    example: 200
-                  success:
-                    type: boolean
-                    example: true
-              examples:
-                Reset database:
-                  value:
-                    data: null
-                    message: Database dropped successfully
-                    statusCode: 200
-                    success: true
   /healthcheck:
     get:
       summary: ⛑️ healthcheck
@@ -48207,5 +48099,3 @@ tags:
     description: >-
       This folder contains requests that are used for seeding or populating the
       database with initial data.
-  - name: 🚫 Danger Zone
-    description: '**WARNING: Sensitive Operations ⚠️**'
