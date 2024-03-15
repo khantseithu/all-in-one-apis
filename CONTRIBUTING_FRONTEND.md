@@ -11,8 +11,6 @@ Thank you for your interest in contributing to the FreeAPI project by creating f
 - the platform you intend to target.
 - describe your application in detail
 
-**IMPORTANT: Contributor must create an issue with [Frontend Contribution](https://github.com/hiteshchoudhary/apihub/issues/new?assignees=&labels=frontend%2Cenhancement&projects=&template=frontend_contribution.yaml&title=FRONTEND%3A+%3Ctitle%3E) issue template.**
-
 This ensures coordination and prevents duplicated efforts.
 
 ## Table of Contents
@@ -38,15 +36,13 @@ Start by forking the FreeAPI project repository to your GitHub account.
 Clone your fork of the repository to your local machine.
 
 ```bash
-git clone https://github.com/<your_username>/apihub.git
-cd apihub
+git clone https://github.com/<your_username>/all-in-one-apis.git
+cd all-in-one-apis
 ```
 
 ### Install Dependencies
 
 Make sure you have the necessary dependencies of FreeAPI installed for the frontend framework or library you plan to use.
-
-Follow this [README.md section](https://github.com/hiteshchoudhary/apihub/blob/main/README.md#-installation) to know more about setting up the FreeAPI environment
 
 ## Choosing a Module <a name="choosing-a-module"></a>
 
@@ -127,92 +123,3 @@ List all major dependencies/tech tools used in a clear and organized manner in y
 ## Testing (optional) <a name="testing"></a>
 
 Write tests for your frontend application to ensure its functionality. Include instructions on how to run the tests.
-
-## Submitting Your Contribution <a name="submitting-your-contribution"></a>
-
-Click [here](https://github.com/hiteshchoudhary/apihub/blob/main/CONTRIBUTING.md) for detailed contribution guide on submitting a PR.
-
-Thank you for your contribution to FreeAPI! Your dedication helps make our APIs more accessible and valuable to the community. If you have any questions or need assistance, feel free to reach out to our [Discord](https://discord.gg/uuGBkhX8Yp).
-
-## 🌟 Featured Projects Opportunity on FreeAPI <a name="featured-projects"></a>
-
-We value the contributions of our community members, and we want to showcase your work! As part of our effort to highlight the creativity and diversity of the FreeAPI project, we are introducing a Featured Projects section on the official [FreeAPI](https://freeapi.app) site (under development).
-
-## How to Get Featured <a name="get-featured"></a>
-
-1. **Self-Host the FreeAPI Backend:**
-
-   - Ensure that you have set up and are self-hosting the FreeAPI backend on your server. Detailed instructions can be found in the [README.md Railway one click deploy section](https://github.com/hiteshchoudhary/apihub/blob/main/README.md#-using-railway-one-click-deploy). _(NOTE: You can deploy this app on server that you are comfortable with. Just make sure it is deployed and your deployed frontend can consume it's apis)_
-
-2. **Consume FreeAPI Backend APIs in Your Frontend:**
-
-   - In your frontend project, make sure you are consuming the relevant FreeAPI backend APIs from the deployed backend server. This demonstrates the end-to-end functionality of your application.
-
-3. **Deploy Your Frontend:**
-
-   - Deploy your frontend application, and ensure it is accessible via a public URL.
-
-4. **Include Deployed Link in README.md:**
-   - Add the deployed link to your frontend application at the top of the README.md file in your project code. This link will serve as the entry point for us to review and feature your project.
-
-### Example README Section:
-
-```markdown
-<!-- other README.md content -->
-<!-- make sure to keep this link at the top to make it visible -->
-
-## Deployed Link
-
-Visit my app: [https://my-social-media-app.example.com](https://my-social-media-app.example.com)
-
- <!-- other README.md content -->
-```
-
-### Why to get featured?
-
-1. **Contribution in Open Source:**
-
-   - Gain recognition and celebrate contributions within the FreeAPI community.
-   - Enhance your portfolio with real-world open source projects.
-
-2. **Deployed Project:**
-
-   - Gain hands-on experience with real-world deployment challenges.
-   - Enhance your portfolio with a deployed and functional application.
-
-3. **Showcasing Your Work:**
-
-   - Increase visibility by being featured on the official FreeAPI website.
-   - Receive recognition from the FreeAPI community.
-
-4. **Networking Opportunities:**
-
-   - Connect with like-minded individuals within the FreeAPI community.
-   - Showcase your skills to potential collaborators, mentors, or employers.
-
-5. **Beta Stage Advantage:**
-
-   - Gain early recognition as an early adopter and contributor.
-   - Influence the future development of the Featured Projects feature.
-
-6. **Skill Showcase:**
-
-   - Showcase proficiency in both backend consumption and frontend development.
-   - Highlight your preferred frontend tech stack.
-
-### What Happens Next:
-
-- **Beta Stage:** While this feature is in beta, our team will be actively monitoring deployed links mentioned in README.md files of frontend example projects.
-
-- **Official Rollout:** Once the Featured Projects page is officially launched on [FreeAPI](https://freeapi.app), we will review and select projects from the submitted links to showcase. So, you can start deploying your apps.
-
-- **Notification:** If your project is selected, we will notify you and include your project in the Featured Projects section on [FreeAPI](https://freeapi.app).
-
-### Important Note:
-
-- Projects with deployed links mentioned at the top of the README.md file have a higher chance of being featured.
-- This feature is in beta, and we appreciate your early contributions to help shape the future of FreeAPI. The more links we get the sooner this section will get up and running.
-
-Thank you for being part of the FreeAPI community and contributing to the project! We look forward to featuring your fantastic work. 🌟
-
-Happy coding! 🚀
