@@ -66,3 +66,7 @@ yarn start
 ```
 
 7. Access the project APIs at the specified endpoints.
+
+# Live Demo
+
+You can access the live demo of the AllInOneAPIs project at [http://allinoneapis.khantsithu.me:8080](http://allinoneapis.khantsithu.me:8080).
