@@ -25,7 +25,7 @@ const __dirname = path.dirname(__filename);
 const file = fs.readFileSync(path.resolve(__dirname, "./swagger.yaml"), "utf8");
 const swaggerDocument = YAML.parse(file);
 
-const app = express();
+export const app = express();
 
 const httpServer = createServer(app);
 
