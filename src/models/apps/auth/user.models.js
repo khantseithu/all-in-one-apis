@@ -12,6 +12,7 @@ import {
 import { Cart } from "../ecommerce/cart.models.js";
 import { EcomProfile } from "../ecommerce/profile.models.js";
 import { SocialProfile } from "../social-media/profile.models.js";
+import { RecipeProfile } from "../recipe-sharing/profile.models.js";
 
 const userSchema = new Schema(
   {
@@ -89,6 +90,7 @@ userSchema.post("save", async function (user, next) {
   // ! However, in this application this user model is being referenced in many loosely coupled models so we need to do some initial setups before proceeding to make sure the data consistency and integrity
   const ecomProfile = await EcomProfile.findOne({ owner: user._id });
   const socialProfile = await SocialProfile.findOne({ owner: user._id });
+  const recipeProfile = await RecipeProfile.findOne({ owner: user._id });
   const cart = await Cart.findOne({ owner: user._id });
 
   // Setup necessary ecommerce models for the user
@@ -110,6 +112,14 @@ userSchema.post("save", async function (user, next) {
       owner: user._id,
     });
   }
+
+  // Setup necessary recipe sharing models for the user
+  if (!recipeProfile) {
+    await RecipeProfile.create({
+      owner: user._id,
+    });
+  }
+
   next();
 });
 

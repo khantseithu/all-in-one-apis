@@ -1,4 +1,4 @@
-import { Schema } from "mongoose";
+import mongoose, { Schema } from "mongoose";
 
 const profileSchema = new Schema(
   {
@@ -48,4 +48,4 @@ const profileSchema = new Schema(
   { timestamps: true }
 );
 
-export const recipeProfile = mongoose.model("RecipeProfile", profileSchema);
+export const RecipeProfile = mongoose.model("RecipeProfile", profileSchema);

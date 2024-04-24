@@ -68,6 +68,8 @@ export const USER_TEMPORARY_TOKEN_EXPIRY = 20 * 60 * 1000; // 20 minutes
 export const MAXIMUM_SUB_IMAGE_COUNT = 4;
 export const MAXIMUM_SOCIAL_POST_IMAGE_COUNT = 6;
 
+export const MAXIMUM_RECIPE_IMAGE_COUNT = 6;
+
 export const DB_NAME = "freeapi";
 
 export const paypalBaseUrl = {
